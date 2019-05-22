@@ -252,13 +252,19 @@ We can also mark our Password field as such by adding the “secure” property.
 <p>Much better, we’re full-stack-developers after all :D<br>
 As per usual, find the full app here:<br>
 <a href="https://github.com/steinerj/primeforce-hackathon/tree/master/simpleapp-styled">https://github.com/steinerj/primeforce-hackathon/tree/master/simpleapp-styled</a></p>
-<h3 id="where-to-go-from-here...">5. Where to go from here…</h3>
+<h3 id="scope-creep----more-features">5. SCOPE CREEP  - More features!</h3>
 <ul>
-<li>You can checkout this example - which adds a TabView, makes the list searchable, includes a chatbot etc:<br>
-<a href="https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=10">https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=10</a></li>
-<li>You could add a user landing page</li>
-<li>You could add a star rating for each service provider, e.g. after tapping on Service Provider. Have a look at this plugin: <a href="https://market.nativescript.org/plugins/nativescript-rating-dialog">https://market.nativescript.org/plugins/nativescript-rating-dialog</a><br>
+<li>
+<p>You can checkout this example - which adds a TabView, makes the list searchable, includes a chatbot etc:<br>
+<a href="https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=10">https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=10</a></p>
+</li>
+<li>
+<p>You could add a user landing page</p>
+</li>
+<li>
+<p>You could add a star rating for each service provider, e.g. after tapping on Service Provider. Have a look at this plugin: <a href="https://market.nativescript.org/plugins/nativescript-rating-dialog">https://market.nativescript.org/plugins/nativescript-rating-dialog</a><br>
 To add it you can run: <em><strong>tns plugin add nativescript-rating-dialog</strong></em><br>
-Please note that this won’t work with tns preview, as tns preview only works with a preselection of plugins which doesn’t include the ratings plugin.</li>
+Please note that this won’t work with tns preview, as tns preview only works with a preselection of plugins which doesn’t include the ratings plugin.</p>
+</li>
 </ul>
 
