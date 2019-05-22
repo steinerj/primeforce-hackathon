@@ -1,0 +1,23 @@
+.page {
+    align-items: center;
+  }
+  .form {
+    margin-left: 10;
+    margin-right: 10;
+    flex-grow: 2;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    margin-bottom: 25;
+    height: 200;
+  }
+  
+  .input-field {
+    margin-bottom: 25;
+  }
+
+  .input {
+    font-size: 20;
+    placeholder-color: #A8A8A8;
+  }

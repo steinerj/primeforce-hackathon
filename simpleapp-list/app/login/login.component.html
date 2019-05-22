@@ -1,0 +1,7 @@
+<StackLayout class="page">
+    <StackLayout class="form">
+            <TextField class="input" hint="Username" [(ngModel)]="user.username"></TextField>
+            <TextField class="input" hint="Password" [(ngModel)]="user.password"></TextField>
+            <Button text="Log in" (tap)="login()" class="btn btn-primary"></Button>
+    </StackLayout>
+</StackLayout>

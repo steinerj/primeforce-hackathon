@@ -1,0 +1,13 @@
+<ActionBar title="Primeforce"></ActionBar>
+<ListView [items]="serviceProviders | async" (itemTap)="onItemTap($event)" class="list-group">
+    <ng-template let-serviceProvider="item" let-i="index" let-odd="odd" let-even="even">
+        <StackLayout orientation="vertical" class="list-group-item">
+            <Label class="h2" [text]="serviceProvider.name"></Label>
+            <StackLayout orientation="horizontal">
+                <Label class="h5" [text]="serviceProvider.country"></Label>
+                <Label class="h5" text=" - "></Label>
+                <Label class="h5" [text]="serviceProvider.industry"></Label>
+            </StackLayout> 
+        </StackLayout>
+    </ng-template>
+</ListView>

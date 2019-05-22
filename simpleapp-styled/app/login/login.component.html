@@ -1,0 +1,8 @@
+<FlexBoxLayout class="page">
+    <StackLayout class="form">
+            <Image class="logo" src="~/images/primeforce-logo.png"></Image>
+            <TextField class="input" hint="Username" [(ngModel)]="user.username"></TextField>
+            <TextField class="input" secure="true" hint="Password" [(ngModel)]="user.password"></TextField>
+            <Button text="Log in" (tap)="login()" class="btn btn-primary"></Button>
+    </StackLayout>
+</FlexBoxLayout>

@@ -1,0 +1,7 @@
+<ListView [items]="serviceProviders | async" (itemTap)="onItemTap($event)" class="list-group">
+    <ng-template let-serviceProvider="item" let-i="index" let-odd="odd" let-even="even">
+        <StackLayout orientation="vertical" class="list-group-item">
+            <Label class="title" [text]="serviceProvider.name"></Label>
+        </StackLayout>
+    </ng-template>
+</ListView>
