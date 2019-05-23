@@ -41,6 +41,8 @@ npm i -g @nativescript/schematics</em></p>
 <pre class=" language-bash"><code class="prism  language-bash">./ngrok http 8080
 </code></pre>
 <p>NB: The backend requires Java 12</p>
+<p><strong>There is also a backend running publicly on:<br>
+94.237.89.157:8080</strong></p>
 <h2 id="angular-for-web">Angular for Web</h2>
 <p>Please follow Sebastian’s excellent instructions</p>
 <h2 id="nativescript--angular">NativeScript &amp; Angular</h2>
@@ -256,7 +258,7 @@ As per usual, find the full app here:<br>
 <ul>
 <li>
 <p>You can checkout this example - which adds a TabView, makes the list searchable, includes a chatbot etc:<br>
-<a href="https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=11">https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=11</a></p>
+<a href="https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=12">https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=12</a></p>
 </li>
 <li>
 <p>You could add a user landing page</p>
