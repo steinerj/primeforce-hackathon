@@ -102,7 +102,7 @@ private loginUri = `${this.baseUrl}/login`;
 </code></pre>
 <p>And then create a login method, which takes a User object as it’s parameter and returns an Observable.</p>
 <pre><code>login(user: User): Observable&lt;any&gt; {
-    const body = new HttpParams();
+    const body = new FormData();
     body.append('username', user.username);
     body.append('password', user.password);
 
