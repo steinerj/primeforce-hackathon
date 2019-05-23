@@ -63,8 +63,8 @@ The backend you worked on has a /login endpoint against which we will authentica
 <p>Open the component’s template - <em><strong>login.component.html</strong></em> and add a Layout Container, such as a StackLayout, two TextFields for username and password, and a Button for actually logging in.</p>
 <pre><code>&lt;StackLayout class="page"&gt;
     &lt;StackLayout class="form"&gt;
-            &lt;TextField class="input" hint="Username" [(ngModel)]="user.username"&gt;&lt;/TextField&gt;
-            &lt;TextField class="input" hint="Password" [(ngModel)]="user.password"&gt;&lt;/TextField&gt;
+            &lt;TextField class="input" hint="Username"&gt;&lt;/TextField&gt;
+            &lt;TextField class="input" hint="Password"&gt;&lt;/TextField&gt;
             &lt;Button text="Log in" (tap)="login()" class="btn btn-primary"&gt;&lt;/Button&gt;
     &lt;/StackLayout&gt;
 &lt;/StackLayout&gt;
