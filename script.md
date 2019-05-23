@@ -256,7 +256,7 @@ As per usual, find the full app here:<br>
 <ul>
 <li>
 <p>You can checkout this example - which adds a TabView, makes the list searchable, includes a chatbot etc:<br>
-<a href="https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=10">https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=10</a></p>
+<a href="https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=11">https://play.nativescript.org/?template=play-ng&amp;id=54hxCv&amp;v=11</a></p>
 </li>
 <li>
 <p>You could add a user landing page</p>
