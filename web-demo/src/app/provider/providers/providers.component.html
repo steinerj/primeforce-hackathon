@@ -1,0 +1,43 @@
+<input #f type="text" (keyup)="filter(f.value)">
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Action</th>
+  </tr>
+
+  <tr *ngFor="let provider of providers$ | async">
+    <td [routerLink]="['./', swing.parseId(provider)]">{{provider.name}}</td>
+    <td>{{provider.description}}</td>
+    <td>
+      <button (click)="showDetails(provider)">Go to Details</button>
+      <button (click)="selectProvider(provider)">Show Projects</button>
+    </td>
+  </tr>
+</table>
+
+<!-- <div *ngIf="(projects$ | async) as projects">
+  <h2>Projects</h2>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Code</th>
+    </tr>
+    <tr *ngFor="let project of projects" [routerLink]="['/projects', project.id]">
+      <td>{{project.id}}</td>
+      <td>{{project.name}}</td>
+      <td>{{project.code}}</td>
+    </tr>
+  </table>
+  <app-project-view *ngFor="let project of projects" [source]="project"></app-project-view>
+</div> -->
+
+<div *ngIf="(projects$ | async) as projects">
+  <h2>Projects</h2>
+  <div class="row">
+    <app-project-view *ngFor="let project of projects" [source]="project" class="column box">
+    </app-project-view>
+  </div>
+</div>

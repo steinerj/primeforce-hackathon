@@ -1,0 +1,8 @@
+<div *ngIf="(provider$ | async) as provider">
+  <img [src]="provider.logo">
+  <h1>{{provider.name}}</h1>
+  <p>{{provider.description}}</p>
+  <a [href]="provider.website">{{provider.website}}</a>
+  <h3>{{provider.country}}</h3>
+  <h4>{{provider.city}}</h4>
+</div>

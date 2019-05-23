@@ -1,0 +1,9 @@
+<div>
+  <input [(ngModel)]="user.username" type="text" placeholder="Username">
+  <input [(ngModel)]="user.password" type="password" placeholder="Password"><input type="checkbox"
+    [(ngModel)]="showPassword">Show Password<br>
+  <div *ngIf="showPassword" class="hint">{{user.password}}</div>
+
+  <button (click)="login()">Login</button>
+
+</div>

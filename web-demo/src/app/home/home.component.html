@@ -1,0 +1,46 @@
+<div>
+  <input [(ngModel)]="user.username" type="text" placeholder="Username">
+  <input [(ngModel)]="user.password" type="password" placeholder="Password">
+  <button (click)="login()">Login</button>
+</div>
+
+<!-- <div *ngIf="(users$ | async) as projects">
+      {{ projects | json }}
+    </div> -->
+
+<div class="row">
+
+  <div class="column">
+    <h2>Service Providers</h2>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      <tr *ngFor="let provider of providers$ | async">
+        <td>{{provider.name}}</td>
+        <td>{{provider.description}}</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="column">
+    <h2>Projects</h2>
+    <div *ngFor="let project of projects$ | async">
+      <p>
+        <b>{{project.id}}</b> {{project.name}} {{project.code}}
+      </p>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <h2>Users</h2>
+    <div *ngFor="let user of users$ | async">
+      <p>
+        <b>{{user.id}}</b> {{user.username}}</p>
+    </div>
+  </div>
+
+</div>
